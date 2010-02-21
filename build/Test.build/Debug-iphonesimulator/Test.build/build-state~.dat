@@ -1,0 +1,368 @@
+TTest
+v7
+r0
+t288480168.435688
+cCheck dependencies
+cProcessInfoPlistFile /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Info.plist Test-Info.plist
+cCompileXIB /Users/MattBook/Desktop/Test/FlipsideView.xib
+cCompileXIB /Users/MattBook/Desktop/Test/MainView.xib
+cCompileXIB /Users/MattBook/Desktop/Test/MainWindow.xib
+cProcessPCH /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-edwholanysfwhqhamzhgvsmtjdgh/Test_Prefix.pch.gch Test_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/main.o /Users/MattBook/Desktop/Test/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/TestAppDelegate.o /Users/MattBook/Desktop/Test/Classes/TestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FlipsideView.o /Users/MattBook/Desktop/Test/Classes/FlipsideView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainView.o /Users/MattBook/Desktop/Test/Classes/MainView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainViewController.o /Users/MattBook/Desktop/Test/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FlipsideViewController.o /Users/MattBook/Desktop/Test/Classes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Test normal i386
+cGenerateDSYMFile /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app.dSYM /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Test
+cTouch /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004B7DD7E700000000000000EE
+t1266538471
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/Availability.h
+c000000004B2B4EE200000000000019F9
+t1261129442
+s6649
+
+N/Users/MattBook/Desktop/Test/Classes/FlipsideView.h
+c000000004B81A3DA00000000000000B6
+t1266787290
+s182
+
+N/Users/MattBook/Desktop/Test/Classes/FlipsideView.m
+c000000004B81A3DA00000000000001B6
+t1266787290
+s438
+i"FlipsideView.h"
+
+N/Users/MattBook/Desktop/Test/Classes/FlipsideViewController.h
+c000000004B81A3DA000000000000020B
+t1266787290
+s523
+
+N/Users/MattBook/Desktop/Test/Classes/FlipsideViewController.m
+c000000004B81A3DA000000000000044A
+t1266787290
+s1098
+i"FlipsideViewController.h"
+
+N/Users/MattBook/Desktop/Test/Classes/MainView.h
+c000000004B81A3DB00000000000000C6
+t1266787291
+s198
+i<UIKit/UIKit.h>
+
+N/Users/MattBook/Desktop/Test/Classes/MainView.m
+c000000004B81A3DB00000000000001AA
+t1266787291
+s426
+i"MainView.h"
+
+N/Users/MattBook/Desktop/Test/Classes/MainViewController.h
+c000000004B81A3DB0000000000000126
+t1266787291
+s294
+i"FlipsideViewController.h"
+
+N/Users/MattBook/Desktop/Test/Classes/MainViewController.m
+c000000004B81A3DB00000000000007E2
+t1266787291
+s2018
+i"MainViewController.h"
+i"MainView.h"
+
+N/Users/MattBook/Desktop/Test/Classes/TestAppDelegate.h
+c000000004B81A3DB00000000000001B3
+t1266787291
+s435
+
+N/Users/MattBook/Desktop/Test/Classes/TestAppDelegate.m
+c000000004B81A3DB000000000000031B
+t1266787291
+s795
+i"TestAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/MattBook/Desktop/Test/FlipsideView.xib
+c000000004B81A3DB0000000000002681
+t1266787291
+s9857
+
+N/Users/MattBook/Desktop/Test/MainView.xib
+c000000004B81A3DB00000000000023BF
+t1266787291
+s9151
+
+N/Users/MattBook/Desktop/Test/MainWindow.xib
+c000000004B81A3DB0000000000001E04
+t1266787291
+s7684
+
+N/Users/MattBook/Desktop/Test/Test_Prefix.pch
+c000000004B81A3DB000000000000013A
+t1266787291
+s314
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app
+t1266787368
+s272
+
+N/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app.dSYM
+t1266787368
+s102
+
+N/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/FlipsideView.nib
+t1266787366
+s1802
+
+N/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Info.plist
+t1266787365
+s552
+
+N/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/MainView.nib
+t1266787366
+s2042
+
+N/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/MainWindow.nib
+t1266787366
+s1376
+
+N/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/PkgInfo
+t1266787365
+s8
+
+N/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Test
+t1266787368
+s22424
+
+N/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FlipsideView.o
+t1266787368
+s9864
+
+N/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FlipsideViewController.o
+t1266787368
+s32216
+
+N/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainView.o
+t1266787368
+s9812
+
+N/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainViewController.o
+t1266787368
+s32592
+
+N/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/Test.LinkFileList
+c000000004B81A42500000000000002B3
+t1266787365
+s691
+
+N/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/TestAppDelegate.o
+t1266787368
+s39168
+
+N/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/main.o
+t1266787368
+s5936
+
+N/Users/MattBook/Desktop/Test/main.m
+c000000004B81A3DB0000000000000166
+t1266787291
+s358
+i<UIKit/UIKit.h>
+
+N/var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-edwholanysfwhqhamzhgvsmtjdgh/Test_Prefix.pch.gch
+t1266787367
+s13034960
+
+NTest-Info.plist
+c000000004B81A3DB000000000000038D
+t1266787291
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies288480165#288480165#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FlipsideView.o /Users/MattBook/Desktop/Test/Classes/FlipsideView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288480168.083147
+e288480168.203729
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FlipsideView.o
+x/Users/MattBook/Desktop/Test/Classes/FlipsideView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/MattBook/Desktop/Test/Classes/FlipsideView.m288480168#288480168#0(0"0(0#0#51"/Users/MattBook/Desktop/Test/Classes/FlipsideView.m4300885448#1713"    cd /Users/MattBook/Desktop/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -I/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/include -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -include /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-edwholanysfwhqhamzhgvsmtjdgh/Test_Prefix.pch -c /Users/MattBook/Desktop/Test/Classes/FlipsideView.m -o /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FlipsideView.o0#
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FlipsideViewController.o /Users/MattBook/Desktop/Test/Classes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288480168.214572
+e288480168.359177
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FlipsideViewController.o
+x/Users/MattBook/Desktop/Test/Classes/FlipsideViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/MattBook/Desktop/Test/Classes/FlipsideViewController.m288480168#288480168#0(0"0(0#0#61"/Users/MattBook/Desktop/Test/Classes/FlipsideViewController.m4300885448#1733"    cd /Users/MattBook/Desktop/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -I/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/include -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -include /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-edwholanysfwhqhamzhgvsmtjdgh/Test_Prefix.pch -c /Users/MattBook/Desktop/Test/Classes/FlipsideViewController.m -o /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FlipsideViewController.o0#
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainView.o /Users/MattBook/Desktop/Test/Classes/MainView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288480168.125338
+e288480168.214457
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainView.o
+x/Users/MattBook/Desktop/Test/Classes/MainView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/MattBook/Desktop/Test/Classes/MainView.m288480168#288480168#0(0"0(0#0#47"/Users/MattBook/Desktop/Test/Classes/MainView.m4300885448#1705"    cd /Users/MattBook/Desktop/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -I/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/include -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -include /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-edwholanysfwhqhamzhgvsmtjdgh/Test_Prefix.pch -c /Users/MattBook/Desktop/Test/Classes/MainView.m -o /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainView.o0#
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainViewController.o /Users/MattBook/Desktop/Test/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288480168.203837
+e288480168.329796
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainViewController.o
+x/Users/MattBook/Desktop/Test/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/MattBook/Desktop/Test/Classes/MainViewController.m288480168#288480168#0(0"0(0#0#57"/Users/MattBook/Desktop/Test/Classes/MainViewController.m4300885448#1725"    cd /Users/MattBook/Desktop/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -I/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/include -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -include /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-edwholanysfwhqhamzhgvsmtjdgh/Test_Prefix.pch -c /Users/MattBook/Desktop/Test/Classes/MainViewController.m -o /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainViewController.o0#
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/TestAppDelegate.o /Users/MattBook/Desktop/Test/Classes/TestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288480167.989510
+e288480168.125228
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/TestAppDelegate.o
+x/Users/MattBook/Desktop/Test/Classes/TestAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/MattBook/Desktop/Test/Classes/TestAppDelegate.m288480167#288480168#0(0"0(0#0#54"/Users/MattBook/Desktop/Test/Classes/TestAppDelegate.m4300885448#1719"    cd /Users/MattBook/Desktop/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -I/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/include -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -include /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-edwholanysfwhqhamzhgvsmtjdgh/Test_Prefix.pch -c /Users/MattBook/Desktop/Test/Classes/TestAppDelegate.m -o /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/TestAppDelegate.o0#
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/main.o /Users/MattBook/Desktop/Test/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288480167.988219
+e288480168.083026
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/main.o
+x/Users/MattBook/Desktop/Test/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Compile /Users/MattBook/Desktop/Test/main.m288480167#288480168#0(0"0(0#0#35"/Users/MattBook/Desktop/Test/main.m4300885448#1689"    cd /Users/MattBook/Desktop/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -I/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/include -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -include /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-edwholanysfwhqhamzhgvsmtjdgh/Test_Prefix.pch -c /Users/MattBook/Desktop/Test/main.m -o /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/MattBook/Desktop/Test/FlipsideView.xib
+s288480165.812043
+e288480166.162440
+r1
+xCompileXIB
+x/Users/MattBook/Desktop/Test/FlipsideView.xib
+lSLF07#2@27"CompileXIB FlipsideView.xib288480165#288480166#0(0"0(0#0#45"/Users/MattBook/Desktop/Test/FlipsideView.xib4300885448#453"    cd /Users/MattBook/Desktop/Test    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/FlipsideView.nib /Users/MattBook/Desktop/Test/FlipsideView.xib0#
+
+CCompileXIB /Users/MattBook/Desktop/Test/MainView.xib
+s288480165.813623
+e288480166.211821
+r1
+xCompileXIB
+x/Users/MattBook/Desktop/Test/MainView.xib
+lSLF07#2@23"CompileXIB MainView.xib288480165#288480166#0(0"0(0#0#41"/Users/MattBook/Desktop/Test/MainView.xib4300885448#445"    cd /Users/MattBook/Desktop/Test    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/MainView.nib /Users/MattBook/Desktop/Test/MainView.xib0#
+
+CCompileXIB /Users/MattBook/Desktop/Test/MainWindow.xib
+s288480166.162541
+e288480166.450450
+r1
+xCompileXIB
+x/Users/MattBook/Desktop/Test/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib288480166#288480166#0(0"0(0#0#43"/Users/MattBook/Desktop/Test/MainWindow.xib4300885448#449"    cd /Users/MattBook/Desktop/Test    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/MainWindow.nib /Users/MattBook/Desktop/Test/MainWindow.xib0#
+
+CGenerateDSYMFile /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app.dSYM /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Test
+s288480168.386181
+e288480168.431592
+r1
+xGenerateDSYMFile
+x/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app.dSYM
+x/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Test
+lSLF07#2@100"GenerateDSYMFile build/Debug-iphonesimulator/Test.app.dSYM build/Debug-iphonesimulator/Test.app/Test288480168#288480168#0(0"0(0#0#70"/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Test4300885448#344"    cd /Users/MattBook/Desktop/Test    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Test -o /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app.dSYM0#
+
+CLd /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Test normal i386
+s288480168.359289
+e288480168.386074
+r1
+xLd
+x/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Test
+xnormal
+xi386
+lSLF07#2@75"Link /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Test288480168#288480168#0(0"0(0#0#0"4300885448#799"    cd /Users/MattBook/Desktop/Test    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -filelist /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/Test.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Test0#
+
+CProcessInfoPlistFile /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Info.plist Test-Info.plist
+s288480165.788239
+e288480165.811520
+r1
+xProcessInfoPlistFile
+x/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Info.plist
+xTest-Info.plist
+lSLF07#2@23"Process Test-Info.plist288480165#288480165#0(0"0(0#0#44"/Users/MattBook/Desktop/Test/Test-Info.plist4300885448#440"    cd /Users/MattBook/Desktop/Test    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Test-Info.plist -genpkginfo /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Info.plist0#
+
+CProcessPCH /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-edwholanysfwhqhamzhgvsmtjdgh/Test_Prefix.pch.gch Test_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s288480166.450577
+e288480167.988000
+r1
+xProcessPCH
+x/var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-edwholanysfwhqhamzhgvsmtjdgh/Test_Prefix.pch.gch
+xTest_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Test_Prefix.pch288480166#288480167#0(0"0(0#0#44"/Users/MattBook/Desktop/Test/Test_Prefix.pch4300885448#1594"    cd /Users/MattBook/Desktop/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -I/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/include -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -c /Users/MattBook/Desktop/Test/Test_Prefix.pch -o /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-edwholanysfwhqhamzhgvsmtjdgh/Test_Prefix.pch.gch0#
+
+CTouch /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app
+s288480168.431691
+e288480168.435452
+r1
+xTouch
+x/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app
+lSLF07#2@71"Touch /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app288480168#288480168#0(0"0(0#0#0"4300885448#255"    cd /Users/MattBook/Desktop/Test    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app0#
+

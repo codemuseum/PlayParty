@@ -1,0 +1,711 @@
+TTest
+v7
+r0
+t288481604.503389
+cCheck dependencies
+cProcessInfoPlistFile /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Info.plist Test-Info.plist
+cCompileXIB /Users/MattBook/Desktop/Test/FlipsideView.xib
+cCompileXIB /Users/MattBook/Desktop/Test/MainView.xib
+cCompileXIB /Users/MattBook/Desktop/Test/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/Test.app/FBConnect.bundle ../../Projects/opensource/facebook-iphone-sdk/src/FBConnect.bundle
+cProcessPCH /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-czexahdeaclmskefdekbhsiljkby/Test_Prefix.pch.gch Test_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/main.o /Users/MattBook/Desktop/Test/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/TestAppDelegate.o /Users/MattBook/Desktop/Test/Classes/TestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FlipsideView.o /Users/MattBook/Desktop/Test/Classes/FlipsideView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainView.o /Users/MattBook/Desktop/Test/Classes/MainView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainViewController.o /Users/MattBook/Desktop/Test/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FlipsideViewController.o /Users/MattBook/Desktop/Test/Classes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBConnectGlobal.o /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBConnectGlobal.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBSession.o /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBSession.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBRequest.o /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBXMLHandler.o /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBXMLHandler.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBLoginButton.o /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBLoginButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBDialog.o /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBLoginDialog.o /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBPermissionDialog.o /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBPermissionDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBStreamDialog.o /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBStreamDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Test normal i386
+cGenerateDSYMFile /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app.dSYM /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Test
+cTouch /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004B7DD7E700000000000000EE
+t1266538471
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/Availability.h
+c000000004B2B4EE200000000000019F9
+t1261129442
+s6649
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/CommonCrypto/CommonDigest.h
+c000000004748A1090000000000002500
+t1195942153
+s9472
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/dlfcn.h
+c00000000476340E00000000000000AC7
+t1197687008
+s2759
+
+N/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBConnect.bundle
+c000000004B510E4E0000000000000066
+t1263603278
+s102
+
+N/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBConnectGlobal.m
+c000000004B510E4E0000000000000515
+t1263603278
+s1301
+i"FBConnect/FBConnectGlobal.h"
+
+N/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBDialog.m
+c000000004B510E4E00000000000052B1
+t1263603278
+s21169
+i"FBConnect/FBDialog.h"
+i"FBConnect/FBSession.h"
+
+N/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBLoginButton.m
+c000000004B510E4E0000000000001476
+t1263603278
+s5238
+i"FBConnect/FBLoginButton.h"
+i"FBConnect/FBLoginDialog.h"
+i<dlfcn.h>
+
+N/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBLoginDialog.m
+c000000004B510E4E000000000000100E
+t1263603278
+s4110
+i"FBConnect/FBLoginDialog.h"
+i"FBConnect/FBSession.h"
+i"FBConnect/FBRequest.h"
+
+N/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBPermissionDialog.m
+c000000004B510E4E0000000000000C88
+t1263603278
+s3208
+i"FBConnect/FBPermissionDialog.h"
+i"FBConnect/FBSession.h"
+
+N/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBRequest.m
+c000000004B510E4E0000000000002EFC
+t1263603278
+s12028
+i"FBConnect/FBRequest.h"
+i"FBConnect/FBSession.h"
+i"FBXMLHandler.h"
+i<CommonCrypto/CommonDigest.h>
+
+N/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBSession.m
+c000000004B510E4E000000000000215A
+t1263603278
+s8538
+i"FBConnect/FBSession.h"
+i"FBConnect/FBRequest.h"
+
+N/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBStreamDialog.m
+c000000004B510E4E00000000000009B1
+t1263603278
+s2481
+i"FBConnect/FBStreamDialog.h"
+i"FBConnect/FBSession.h"
+
+N/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBXMLHandler.m
+c000000004B510E4E0000000000001148
+t1263603278
+s4424
+i"FBXMLHandler.h"
+
+N/Users/MattBook/Desktop/Test/Classes/FlipsideView.h
+c000000004B81A3DA00000000000000B6
+t1266787290
+s182
+
+N/Users/MattBook/Desktop/Test/Classes/FlipsideView.m
+c000000004B81A3DA00000000000001B6
+t1266787290
+s438
+i"FlipsideView.h"
+
+N/Users/MattBook/Desktop/Test/Classes/FlipsideViewController.h
+c000000004B81A3DA000000000000020B
+t1266787290
+s523
+
+N/Users/MattBook/Desktop/Test/Classes/FlipsideViewController.m
+c000000004B81A3DA000000000000044A
+t1266787290
+s1098
+i"FlipsideViewController.h"
+
+N/Users/MattBook/Desktop/Test/Classes/MainView.h
+c000000004B81A3DB00000000000000C6
+t1266787291
+s198
+i<UIKit/UIKit.h>
+
+N/Users/MattBook/Desktop/Test/Classes/MainView.m
+c000000004B81A3DB00000000000001AA
+t1266787291
+s426
+i"MainView.h"
+
+N/Users/MattBook/Desktop/Test/Classes/MainViewController.h
+c000000004B81A6B20000000000000227
+t1266788018
+s551
+i"FlipsideViewController.h"
+i"FBConnect/FBConnect.h"
+
+N/Users/MattBook/Desktop/Test/Classes/MainViewController.m
+c000000004B81A9C20000000000001229
+t1266788802
+s4649
+i"MainViewController.h"
+i"MainView.h"
+
+N/Users/MattBook/Desktop/Test/Classes/TestAppDelegate.h
+c000000004B81A3DB00000000000001B3
+t1266787291
+s435
+
+N/Users/MattBook/Desktop/Test/Classes/TestAppDelegate.m
+c000000004B81A3DB000000000000031B
+t1266787291
+s795
+i"TestAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/MattBook/Desktop/Test/FlipsideView.xib
+c000000004B81A3DB0000000000002681
+t1266787291
+s9857
+
+N/Users/MattBook/Desktop/Test/MainView.xib
+c000000004B81A8670000000000005601
+t1266788455
+s22017
+
+N/Users/MattBook/Desktop/Test/MainWindow.xib
+c000000004B81A3DB0000000000001E04
+t1266787291
+s7684
+
+N/Users/MattBook/Desktop/Test/Test_Prefix.pch
+c000000004B81A3DB000000000000013A
+t1266787291
+s314
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app
+t1266788804
+s306
+
+N/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app.dSYM
+t1266788804
+s102
+
+N/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/FBConnect.bundle
+t1266788460
+s102
+
+N/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/FlipsideView.nib
+t1266787366
+s1802
+
+N/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Info.plist
+t1266787365
+s552
+
+N/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/MainView.nib
+t1266788460
+s2597
+
+N/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/MainWindow.nib
+t1266787366
+s1376
+
+N/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/PkgInfo
+t1266787365
+s8
+
+N/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Test
+t1266788804
+s112344
+
+N/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBConnectGlobal.o
+t1266788466
+s7736
+
+N/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBDialog.o
+t1266788467
+s74048
+
+N/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBLoginButton.o
+t1266788467
+s31532
+
+N/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBLoginDialog.o
+t1266788467
+s24792
+
+N/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBPermissionDialog.o
+t1266788467
+s21432
+
+N/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBRequest.o
+t1266788466
+s46212
+
+N/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBSession.o
+t1266788466
+s31732
+
+N/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBStreamDialog.o
+t1266788467
+s20228
+
+N/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBXMLHandler.o
+t1266788466
+s18936
+
+N/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FlipsideView.o
+t1266788466
+s9864
+
+N/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FlipsideViewController.o
+t1266788466
+s32216
+
+N/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainView.o
+t1266788466
+s9812
+
+N/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainViewController.o
+t1266788804
+s45088
+
+N/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/Test.LinkFileList
+c000000004B81A86C00000000000006B8
+t1266788460
+s1720
+
+N/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/TestAppDelegate.o
+t1266788466
+s40004
+
+N/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/main.o
+t1266788466
+s5936
+
+N/Users/MattBook/Desktop/Test/main.m
+c000000004B81A3DB0000000000000166
+t1266787291
+s358
+i<UIKit/UIKit.h>
+
+N/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src/FBConnect/FBConnect.h
+c000000004B510E4E0000000000000324
+t1263603278
+s804
+i"FBConnect/FBSession.h"
+i"FBConnect/FBRequest.h"
+i"FBConnect/FBLoginButton.h"
+i"FBConnect/FBLoginDialog.h"
+i"FBConnect/FBPermissionDialog.h"
+i"FBConnect/FBStreamDialog.h"
+
+N/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src/FBConnect/FBConnectGlobal.h
+c000000004B510E4E0000000000001E6E
+t1263603278
+s7790
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src/FBConnect/FBDialog.h
+c000000004B510E4E0000000000000EE9
+t1263603278
+s3817
+i"FBConnect/FBConnectGlobal.h"
+
+N/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src/FBConnect/FBLoginButton.h
+c000000004B510E4E00000000000005A1
+t1263603278
+s1441
+i"FBConnect/FBSession.h"
+
+N/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src/FBConnect/FBLoginDialog.h
+c000000004B510E4E00000000000002F1
+t1263603278
+s753
+i"FBConnect/FBDialog.h"
+i"FBConnect/FBRequest.h"
+
+N/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src/FBConnect/FBPermissionDialog.h
+c000000004B510E4E000000000000038C
+t1263603278
+s908
+i"FBConnect/FBLoginDialog.h"
+
+N/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src/FBConnect/FBRequest.h
+c000000004B510E4E0000000000001159
+t1263603278
+s4441
+i"FBConnect/FBConnectGlobal.h"
+
+N/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src/FBConnect/FBSession.h
+c000000004B510E4E0000000000001579
+t1263603278
+s5497
+i"FBConnect/FBConnectGlobal.h"
+
+N/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src/FBConnect/FBStreamDialog.h
+c000000004B510E4E000000000000083F
+t1263603278
+s2111
+i"FBConnect/FBDialog.h"
+
+N/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src/FBXMLHandler.h
+c000000004B510E4E00000000000003C9
+t1263603278
+s969
+i"FBConnect/FBConnectGlobal.h"
+
+N/var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-czexahdeaclmskefdekbhsiljkby/Test_Prefix.pch.gch
+t1266788466
+s13034960
+
+N/var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-edwholanysfwhqhamzhgvsmtjdgh/Test_Prefix.pch.gch
+t1266787367
+s13034960
+
+NTest-Info.plist
+c000000004B81A3DB000000000000038D
+t1266787291
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies288481604#288481604#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBConnectGlobal.o /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBConnectGlobal.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288481266.622749
+e288481266.687078
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBConnectGlobal.o
+x/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBConnectGlobal.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBConnectGlobal.m288481266#288481266#0(0"0(0#0#96"/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBConnectGlobal.m4300885448#1823"    cd /Users/MattBook/Desktop/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -I/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/include -I/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -include /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-czexahdeaclmskefdekbhsiljkby/Test_Prefix.pch -c /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBConnectGlobal.m -o /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBConnectGlobal.o0#
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBDialog.o /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288481266.972126
+e288481267.236014
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBDialog.o
+x/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBDialog.m: In function '-[FBDialog initWithSession:]':
+o/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBDialog.m:325: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:105)
+lSLF07#2@97"Compile /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBDialog.m288481266#288481267#0(429"/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBDialog.m: In function '-[FBDialog initWithSession:]':/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBDialog.m:325: warning: 'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:105)1(22@189"'setFont:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIButton.h:105)288481267#135#294#0(6@89"/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBDialog.m285296078#325#0#325#0#33"'*' is deprecated (declared at *)0(0#0#89"/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBDialog.m4300885448#1809"    cd /Users/MattBook/Desktop/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -I/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/include -I/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -include /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-czexahdeaclmskefdekbhsiljkby/Test_Prefix.pch -c /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBDialog.m -o /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBDialog.o0#
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBLoginButton.o /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBLoginButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288481266.947144
+e288481267.067170
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBLoginButton.o
+x/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBLoginButton.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBLoginButton.m288481266#288481267#0(0"0(0#0#94"/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBLoginButton.m4300885448#1819"    cd /Users/MattBook/Desktop/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -I/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/include -I/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -include /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-czexahdeaclmskefdekbhsiljkby/Test_Prefix.pch -c /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBLoginButton.m -o /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBLoginButton.o0#
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBLoginDialog.o /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288481267.067288
+e288481267.153204
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBLoginDialog.o
+x/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBLoginDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBLoginDialog.m288481267#288481267#0(0"0(0#0#94"/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBLoginDialog.m4300885448#1819"    cd /Users/MattBook/Desktop/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -I/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/include -I/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -include /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-czexahdeaclmskefdekbhsiljkby/Test_Prefix.pch -c /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBLoginDialog.m -o /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBLoginDialog.o0#
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBPermissionDialog.o /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBPermissionDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288481267.153329
+e288481267.248463
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBPermissionDialog.o
+x/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBPermissionDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBPermissionDialog.m288481267#288481267#0(0"0(0#0#99"/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBPermissionDialog.m4300885448#1829"    cd /Users/MattBook/Desktop/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -I/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/include -I/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -include /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-czexahdeaclmskefdekbhsiljkby/Test_Prefix.pch -c /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBPermissionDialog.m -o /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBPermissionDialog.o0#
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBRequest.o /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288481266.786499
+e288481266.972005
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBRequest.o
+x/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBRequest.m288481266#288481266#0(0"0(0#0#90"/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBRequest.m4300885448#1811"    cd /Users/MattBook/Desktop/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -I/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/include -I/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -include /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-czexahdeaclmskefdekbhsiljkby/Test_Prefix.pch -c /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBRequest.m -o /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBRequest.o0#
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBSession.o /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBSession.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288481266.687196
+e288481266.856936
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBSession.o
+x/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBSession.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBSession.m288481266#288481266#0(0"0(0#0#90"/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBSession.m4300885448#1811"    cd /Users/MattBook/Desktop/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -I/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/include -I/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -include /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-czexahdeaclmskefdekbhsiljkby/Test_Prefix.pch -c /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBSession.m -o /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBSession.o0#
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBStreamDialog.o /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBStreamDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288481267.236415
+e288481267.311395
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBStreamDialog.o
+x/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBStreamDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBStreamDialog.m288481267#288481267#0(0"0(0#0#95"/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBStreamDialog.m4300885448#1821"    cd /Users/MattBook/Desktop/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -I/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/include -I/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -include /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-czexahdeaclmskefdekbhsiljkby/Test_Prefix.pch -c /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBStreamDialog.m -o /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBStreamDialog.o0#
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBXMLHandler.o /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBXMLHandler.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288481266.857057
+e288481266.947018
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBXMLHandler.o
+x/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBXMLHandler.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBXMLHandler.m288481266#288481266#0(0"0(0#0#93"/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBXMLHandler.m4300885448#1817"    cd /Users/MattBook/Desktop/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -I/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/include -I/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -include /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-czexahdeaclmskefdekbhsiljkby/Test_Prefix.pch -c /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBXMLHandler.m -o /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FBXMLHandler.o0#
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FlipsideView.o /Users/MattBook/Desktop/Test/Classes/FlipsideView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288481266.416577
+e288481266.513916
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FlipsideView.o
+x/Users/MattBook/Desktop/Test/Classes/FlipsideView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/MattBook/Desktop/Test/Classes/FlipsideView.m288481266#288481266#0(0"0(0#0#51"/Users/MattBook/Desktop/Test/Classes/FlipsideView.m4300885448#1775"    cd /Users/MattBook/Desktop/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -I/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/include -I/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -include /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-czexahdeaclmskefdekbhsiljkby/Test_Prefix.pch -c /Users/MattBook/Desktop/Test/Classes/FlipsideView.m -o /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FlipsideView.o0#
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FlipsideViewController.o /Users/MattBook/Desktop/Test/Classes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288481266.581320
+e288481266.786389
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FlipsideViewController.o
+x/Users/MattBook/Desktop/Test/Classes/FlipsideViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/MattBook/Desktop/Test/Classes/FlipsideViewController.m288481266#288481266#0(0"0(0#0#61"/Users/MattBook/Desktop/Test/Classes/FlipsideViewController.m4300885448#1795"    cd /Users/MattBook/Desktop/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -I/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/include -I/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -include /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-czexahdeaclmskefdekbhsiljkby/Test_Prefix.pch -c /Users/MattBook/Desktop/Test/Classes/FlipsideViewController.m -o /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/FlipsideViewController.o0#
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainView.o /Users/MattBook/Desktop/Test/Classes/MainView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288481266.514033
+e288481266.581186
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainView.o
+x/Users/MattBook/Desktop/Test/Classes/MainView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/MattBook/Desktop/Test/Classes/MainView.m288481266#288481266#0(0"0(0#0#47"/Users/MattBook/Desktop/Test/Classes/MainView.m4300885448#1767"    cd /Users/MattBook/Desktop/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -I/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/include -I/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -include /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-czexahdeaclmskefdekbhsiljkby/Test_Prefix.pch -c /Users/MattBook/Desktop/Test/Classes/MainView.m -o /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainView.o0#
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainViewController.o /Users/MattBook/Desktop/Test/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288481604.284189
+e288481604.432196
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainViewController.o
+x/Users/MattBook/Desktop/Test/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/MattBook/Desktop/Test/Classes/MainViewController.m288481604#288481604#0(0"0(0#0#57"/Users/MattBook/Desktop/Test/Classes/MainViewController.m4300885448#1787"    cd /Users/MattBook/Desktop/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -I/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/include -I/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -include /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-czexahdeaclmskefdekbhsiljkby/Test_Prefix.pch -c /Users/MattBook/Desktop/Test/Classes/MainViewController.m -o /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/MainViewController.o0#
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/TestAppDelegate.o /Users/MattBook/Desktop/Test/Classes/TestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288481266.340803
+e288481266.416469
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/TestAppDelegate.o
+x/Users/MattBook/Desktop/Test/Classes/TestAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/MattBook/Desktop/Test/Classes/TestAppDelegate.m288481266#288481266#0(0"0(0#0#54"/Users/MattBook/Desktop/Test/Classes/TestAppDelegate.m4300885448#1781"    cd /Users/MattBook/Desktop/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -I/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/include -I/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -include /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-czexahdeaclmskefdekbhsiljkby/Test_Prefix.pch -c /Users/MattBook/Desktop/Test/Classes/TestAppDelegate.m -o /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/TestAppDelegate.o0#
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/main.o /Users/MattBook/Desktop/Test/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s288481266.338942
+e288481266.519014
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/main.o
+x/Users/MattBook/Desktop/Test/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@43"Compile /Users/MattBook/Desktop/Test/main.m288481266#288481266#0(0"0(0#0#35"/Users/MattBook/Desktop/Test/main.m4300885448#1751"    cd /Users/MattBook/Desktop/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -I/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/include -I/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -include /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-czexahdeaclmskefdekbhsiljkby/Test_Prefix.pch -c /Users/MattBook/Desktop/Test/main.m -o /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/MattBook/Desktop/Test/FlipsideView.xib
+s288480165.812043
+e288480166.162440
+r1
+xCompileXIB
+x/Users/MattBook/Desktop/Test/FlipsideView.xib
+lSLF07#2@27"CompileXIB FlipsideView.xib288480165#288480166#0(0"0(0#0#45"/Users/MattBook/Desktop/Test/FlipsideView.xib4300885448#453"    cd /Users/MattBook/Desktop/Test    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/FlipsideView.nib /Users/MattBook/Desktop/Test/FlipsideView.xib0#
+
+CCompileXIB /Users/MattBook/Desktop/Test/MainView.xib
+s288481260.246883
+e288481260.667815
+r1
+xCompileXIB
+x/Users/MattBook/Desktop/Test/MainView.xib
+lSLF07#2@23"CompileXIB MainView.xib288481260#288481260#0(0"0(0#0#41"/Users/MattBook/Desktop/Test/MainView.xib4300885448#445"    cd /Users/MattBook/Desktop/Test    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/MainView.nib /Users/MattBook/Desktop/Test/MainView.xib0#
+
+CCompileXIB /Users/MattBook/Desktop/Test/MainWindow.xib
+s288480166.162541
+e288480166.450450
+r1
+xCompileXIB
+x/Users/MattBook/Desktop/Test/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib288480166#288480166#0(0"0(0#0#43"/Users/MattBook/Desktop/Test/MainWindow.xib4300885448#449"    cd /Users/MattBook/Desktop/Test    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/MainWindow.nib /Users/MattBook/Desktop/Test/MainWindow.xib0#
+
+CCpResource build/Debug-iphonesimulator/Test.app/FBConnect.bundle ../../Projects/opensource/facebook-iphone-sdk/src/FBConnect.bundle
+s288481260.286401
+e288481260.630648
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Test.app/FBConnect.bundle
+x../../Projects/opensource/facebook-iphone-sdk/src/FBConnect.bundle
+lSLF07#2@71"Copy ../../Projects/opensource/facebook-iphone-sdk/src/FBConnect.bundle288481260#288481260#0(0"0(0#0#95"/Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBConnect.bundle4300885448#477"    cd /Users/MattBook/Desktop/Test    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/MattBook/Desktop/Test/../../Projects/opensource/facebook-iphone-sdk/src/FBConnect.bundle /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app0#
+
+CGenerateDSYMFile /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app.dSYM /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Test
+s288481604.471608
+e288481604.500347
+r1
+xGenerateDSYMFile
+x/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app.dSYM
+x/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Test
+lSLF07#2@100"GenerateDSYMFile build/Debug-iphonesimulator/Test.app.dSYM build/Debug-iphonesimulator/Test.app/Test288481604#288481604#0(0"0(0#0#70"/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Test4300885448#344"    cd /Users/MattBook/Desktop/Test    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Test -o /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app.dSYM0#
+
+CLd /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Test normal i386
+s288481604.432303
+e288481604.471486
+r1
+xLd
+x/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Test
+xnormal
+xi386
+lSLF07#2@75"Link /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Test288481604#288481604#0(0"0(0#0#0"4300885448#799"    cd /Users/MattBook/Desktop/Test    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -filelist /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/Test.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Test0#
+
+CProcessInfoPlistFile /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Info.plist Test-Info.plist
+s288480165.788239
+e288480165.811520
+r1
+xProcessInfoPlistFile
+x/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Info.plist
+xTest-Info.plist
+lSLF07#2@23"Process Test-Info.plist288480165#288480165#0(0"0(0#0#44"/Users/MattBook/Desktop/Test/Test-Info.plist4300885448#440"    cd /Users/MattBook/Desktop/Test    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Test-Info.plist -genpkginfo /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app/Info.plist0#
+
+CProcessPCH /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-czexahdeaclmskefdekbhsiljkby/Test_Prefix.pch.gch Test_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s288481260.667950
+e288481266.338693
+r1
+xProcessPCH
+x/var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-czexahdeaclmskefdekbhsiljkby/Test_Prefix.pch.gch
+xTest_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Test_Prefix.pch288481260#288481266#0(0"0(0#0#44"/Users/MattBook/Desktop/Test/Test_Prefix.pch4300885448#1656"    cd /Users/MattBook/Desktop/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -I/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/include -I/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -c /Users/MattBook/Desktop/Test/Test_Prefix.pch -o /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-czexahdeaclmskefdekbhsiljkby/Test_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-edwholanysfwhqhamzhgvsmtjdgh/Test_Prefix.pch.gch Test_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s288480166.450577
+e288480167.988000
+r1
+xProcessPCH
+x/var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-edwholanysfwhqhamzhgvsmtjdgh/Test_Prefix.pch.gch
+xTest_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Test_Prefix.pch288480166#288480167#0(0"0(0#0#44"/Users/MattBook/Desktop/Test/Test_Prefix.pch4300885448#1594"    cd /Users/MattBook/Desktop/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -I/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/include -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Users/MattBook/Desktop/Test/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -c /Users/MattBook/Desktop/Test/Test_Prefix.pch -o /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Test_Prefix-edwholanysfwhqhamzhgvsmtjdgh/Test_Prefix.pch.gch0#
+
+CTouch /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app
+s288481604.500444
+e288481604.503345
+r1
+xTouch
+x/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app
+lSLF07#2@71"Touch /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app288481604#288481604#0(0"0(0#0#0"4300885448#255"    cd /Users/MattBook/Desktop/Test    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/Test.app0#
+
