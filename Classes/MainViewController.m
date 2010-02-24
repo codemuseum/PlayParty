@@ -20,10 +20,11 @@ static NSString* kGetSessionProxy = nil; // @"<YOUR SESSION CALLBACK)>";
 
 @implementation MainViewController
 
-UInt32 _sounds[1];
-
-@synthesize recording = _recording;
+// Facebook Properties
 @synthesize label = _label;
+
+// Sound Record & Play Properties
+@synthesize recording = _recording;
 @synthesize recordButton = _recordButton;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
@@ -173,7 +174,9 @@ UInt32 _sounds[1];
   _label.text = [NSString stringWithFormat:@"Error(%d) %@", error.code, error.localizedDescription];
 }
 
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////
+// Facebook connection actions
 
 - (void)askPermission:(id)target {
   FBPermissionDialog* dialog = [[[FBPermissionDialog alloc] init] autorelease];
@@ -183,7 +186,9 @@ UInt32 _sounds[1];
 }
 
 
-////////
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+// Audio Video & Recording Actions
 
 
 - (void) resetRecordButton {
@@ -323,6 +328,7 @@ UInt32 _sounds[1];
 	NSLog (@"audioRecorderDidFinishRecording:successfully:");
 	// your actions here
 }
+
 
 
 @end

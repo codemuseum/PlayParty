@@ -13,10 +13,14 @@
 
 @interface MainViewController : UIViewController 
 	<FlipsideViewControllerDelegate, FBDialogDelegate, FBSessionDelegate, FBRequestDelegate, AVAudioRecorderDelegate> {
+	
+	// Facebook Items
 	IBOutlet UILabel* _label;
 	IBOutlet FBLoginButton* _loginButton;
-	IBOutlet UIButton* _recordButton;
 	FBSession* _session;
+	
+	// Audio Record & Play Buttons
+	IBOutlet UIButton* _recordButton;
 	AVAudioRecorder *recorder;
 	AVAudioPlayer *player;
 	NSString* _recordingFile;
@@ -24,13 +28,20 @@
 	NSMutableDictionary* _recordingSettings;
 }
 
+// Facebook Properties
 @property(nonatomic,readonly) UILabel* label;
+
+// Audio Record & Play Properties
 @property(nonatomic,readonly) UIButton* recordButton;
 @property(nonatomic) BOOL recording;
 
 - (IBAction)showInfo;
-- (IBAction)recordButtonClicked;
+
+// Facebook Actions
 - (void)askPermission:(id)target;
+
+// Audio Record & Play Actions
+- (IBAction)recordButtonClicked;
 - (void)resetRecordButton;
 - (void)startRecording;
 - (void)stopRecording;
