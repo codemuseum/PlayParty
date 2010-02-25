@@ -11,11 +11,19 @@
 #import "MainViewController.h"
 #import "MainView.h"
 
+// Facebook Statics
 static NSString* kApiKey = @"9f0083af27bff83ce5d4841716f5ec2f";
-// Enter either your API secret or a callback URL (as described in documentation):
 static NSString* kApiSecret = @"c28af43643516490f1fb95ceb4aefb42";
-static NSString* kGetSessionProxy = nil; // @"<YOUR SESSION CALLBACK)>";
+static NSString* kGetSessionProxy = nil; // @"<YOUR SESSION CALLBACK)>"; 
+// Enter either your API secret or a callback URL above (as described in documentation)
 
+
+// Upload Statics
+static NSString* kServerUploadURL	= @"http://partyplay.heroku.com/uploads"; // @"http://localhost:3000/uploads";
+static NSString* kDefaultUploadMessage	= @"Watch our latest party.";
+static NSString* kTwitterSource	= @"playparty";
+static NSString* kUploadFilename	= @"playparty.caf";
+static NSString* kUploadFiletype	= @"audio/x-caf";
 
 
 @implementation MainViewController
@@ -270,7 +278,6 @@ static NSString* kGetSessionProxy = nil; // @"<YOUR SESSION CALLBACK)>";
 
 - (void) stopRecording {
 	[recorder stop];
-	[self handleRecordingStopped];
 }
 
 - (void) playRecording {
@@ -301,13 +308,15 @@ static NSString* kGetSessionProxy = nil; // @"<YOUR SESSION CALLBACK)>";
 - (void) handleRecordingStopped {
 	NSURL *url = [NSURL fileURLWithPath: _recordingFile];
 	NSError *err = nil;
+	
+	_label.text = @"Checking audio data...";
 	NSData *audioData = [NSData dataWithContentsOfFile:[url path] options: 0 error:&err];
 	if(!audioData) {
 		NSLog(@"audio data: %@ %d %@", [err domain], [err code], [[err userInfo] description]);
 	}
 	
 	//[editedObject setValue:[NSData dataWithContentsOfURL:url] forKey:editedFieldKey];       
-	//[recorder deleteRecording];
+	////[recorder deleteRecording];
 	
 	
 	//NSFileManager *fm = [NSFileManager defaultManager];
@@ -317,18 +326,148 @@ static NSString* kGetSessionProxy = nil; // @"<YOUR SESSION CALLBACK)>";
 	//	NSLog(@"File Manager: %@ %d %@", [err domain], [err code], [[err userInfo] description]);
 	//}
 
-	[self playRecording];
 	
+	_label.text = @"Playing recording...";
+	[self playRecording];
 	[self resetRecordButton];
+	
+	_label.text = @"Uploading audio...";
+	[self uploadAudio:_recordingFile withMessage:nil fuid:[NSString stringWithFormat:@"%lld", _session.uid] apiKey:kApiKey];
 }
 
 - (void)audioRecorderDidFinishRecording:(AVAudioRecorder *) aRecorder successfully:(BOOL)flag {
 	[self handleRecordingStopped];
-	
-	NSLog (@"audioRecorderDidFinishRecording:successfully:");
-	// your actions here
 }
 
 
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+// Upload Actions
+
+- (void)uploadingDataWithURLRequest:(NSURLRequest *)urlRequest {
+	// Called on a separate thread; upload and handle server response
+	NSHTTPURLResponse *urlResponse;
+	NSError			  *error;
+	NSString		  *responseString;
+	NSData			  *responseData;
+	
+	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];		// Each thread must have its own NSAutoreleasePool
+	
+	[urlRequest retain];  // Retain since we autoreleased it before
+	
+	// Send the request
+	urlResponse = nil;  
+	responseData = [NSURLConnection sendSynchronousRequest:urlRequest
+																			 returningResponse:&urlResponse   
+																									 error:&error];  
+	responseString = [[NSString alloc] initWithData:responseData
+																				 encoding:NSUTF8StringEncoding];
+	
+	// Handle the error or success
+	// If error, create error message and throw up UIAlertView
+	NSLog(@"Response Code: %d", [urlResponse statusCode]);
+	if ([urlResponse statusCode] >= 200 && [urlResponse statusCode] < 300) {
+		NSLog(@"urlResultString: %@", responseString);
+		
+		//NSString *match = [responseString stringByMatching:@"http[a-zA-Z0-9.:/]*"];  // Match the URL for the post
+		//NSLog(@"match: %@", match);
+		
+		// Notice back to self
+		[self performSelectorOnMainThread:@selector(didUploadWithResponse:) withObject:responseString waitUntilDone:NO];
+	}
+	else {
+		NSLog(@"Error while uploading, got 400 error back or no response at all: %d", [urlResponse statusCode]);
+		[self performSelectorOnMainThread:@selector(didUploadWithResponse:) withObject:nil waitUntilDone:NO]; // Nil should mean "upload failed" to this method
+	}
+	
+	[pool release];	 // Release everything except responseData and urlResponse–they're autoreleased on creation
+	[responseString release];  
+	[urlRequest release];
+}
+
+
+- (BOOL)uploadAudio:(NSString *)audioFile withMessage:(NSString *)theMessage fuid:(NSString *)fuid apiKey:(NSString *)apiKey {
+	NSString			*stringBoundary, *contentType, *message;
+	NSData				*audioData;
+	NSURL				*url;
+	NSMutableURLRequest *urlRequest;
+	NSMutableData		*postBody;
+	
+	// Create POST request from message, imageData, fuid and apiKey
+	url				= [NSURL URLWithString:kServerUploadURL];
+	urlRequest		= [[[NSMutableURLRequest alloc] initWithURL:url] autorelease];
+	[urlRequest setHTTPMethod:@"POST"];	
+	
+	// Set the params
+	message		  = ([theMessage length] > 1) ? theMessage : kDefaultUploadMessage;
+	audioData	  = [NSData dataWithContentsOfURL:[NSURL fileURLWithPath: audioFile]];
+	
+	// Setup POST body
+	stringBoundary = [NSString stringWithString:@"0xKhTmLbOuNdArY"];
+	contentType    = [NSString stringWithFormat:@"multipart/form-data; boundary=%@", stringBoundary];
+	[urlRequest addValue:contentType forHTTPHeaderField:@"Content-Type"]; 
+	
+	// Setting up the POST request's multipart/form-data body
+	postBody = [NSMutableData data];
+	
+	// Fix for Rails requests: http://www.wetware.co.nz/blog/2009/03/upload-a-photo-from-iphone-64-encoding-multi-part-form-data/
+	//[postBody appendData:[[NSString stringWithFormat:@"\r\n\r\n--%@\r\n", stringBoundary] dataUsingEncoding:NSUTF8StringEncoding]];
+	[postBody appendData:[[NSString stringWithFormat:@"--%@\r\n", stringBoundary] dataUsingEncoding:NSUTF8StringEncoding]];
+	
+	[postBody appendData:[[NSString stringWithString:@"Content-Disposition: form-data; name=\"source\"\r\n\r\n"] dataUsingEncoding:NSUTF8StringEncoding]];
+	[postBody appendData:[[NSString stringWithString:kTwitterSource] dataUsingEncoding:NSUTF8StringEncoding]];  // To show up as source in Twitter post
+	
+	[postBody appendData:[[NSString stringWithFormat:@"\r\n--%@\r\n", stringBoundary] dataUsingEncoding:NSUTF8StringEncoding]];
+	[postBody appendData:[[NSString stringWithString:@"Content-Disposition: form-data; name=\"credentials[facebook_id]\"\r\n\r\n"] dataUsingEncoding:NSUTF8StringEncoding]];
+	[postBody appendData:[[NSString stringWithString:fuid] dataUsingEncoding:NSUTF8StringEncoding]];  // facebook_id
+	
+	[postBody appendData:[[NSString stringWithFormat:@"\r\n--%@\r\n", stringBoundary] dataUsingEncoding:NSUTF8StringEncoding]];
+	[postBody appendData:[[NSString stringWithString:@"Content-Disposition: form-data; name=\"credentials[key]\"\r\n\r\n"] dataUsingEncoding:NSUTF8StringEncoding]];
+	[postBody appendData:[[NSString stringWithString:apiKey] dataUsingEncoding:NSUTF8StringEncoding]];  // api_key
+	
+	[postBody appendData:[[NSString stringWithFormat:@"\r\n--%@\r\n", stringBoundary] dataUsingEncoding:NSUTF8StringEncoding]];
+	[postBody appendData:[[NSString stringWithString:@"Content-Disposition: form-data; name=\"upload[message]\"\r\n\r\n"] dataUsingEncoding:NSUTF8StringEncoding]];
+	[postBody appendData:[[NSString stringWithString:message] dataUsingEncoding:NSUTF8StringEncoding]];  // message
+	
+	[postBody appendData:[[NSString stringWithFormat:@"\r\n--%@\r\n", stringBoundary] dataUsingEncoding:NSUTF8StringEncoding]];
+	[postBody appendData:[[NSString stringWithFormat:@"Content-Disposition: form-data; name=\"upload[attachment]\"; filename=\"%@\"\r\n", kUploadFilename ] dataUsingEncoding:NSUTF8StringEncoding]];
+	[postBody appendData:[[NSString stringWithFormat:@"Content-Type: %@\r\n", kUploadFiletype] dataUsingEncoding:NSUTF8StringEncoding]];  // file as data
+	[postBody appendData:[[NSString stringWithString:@"Content-Transfer-Encoding: binary\r\n\r\n"] dataUsingEncoding:NSUTF8StringEncoding]];
+	[postBody appendData:audioData];  // Tack on the audioData to the end
+	
+	[postBody appendData:[[NSString stringWithFormat:@"\r\n--%@--\r\n", stringBoundary] dataUsingEncoding:NSUTF8StringEncoding]];
+	[urlRequest setHTTPBody:postBody];
+	
+	// Spawn a new thread so the UI isn't blocked while we're uploading the audio
+	[NSThread detachNewThreadSelector:@selector(uploadingDataWithURLRequest:) toTarget:self withObject:urlRequest];	
+	
+	return YES;  // TODO: Should raise exception on error
+}
+
+- (void)didUploadWithResponse:(NSString *)responseString {
+	_label.text = @"Upload complete (or errored).";
+	if (responseString) {
+		UIAlertView *uploadCompleteAlert =
+		[[UIAlertView alloc] initWithTitle: @"Recording Uploaded!"
+															 message: responseString
+															delegate: nil
+										 cancelButtonTitle:@"OK"
+										 otherButtonTitles:nil];
+		[uploadCompleteAlert show];
+		[uploadCompleteAlert release];
+		
+	}
+	else {
+		UIAlertView *cantUploadAlert =
+		[[UIAlertView alloc] initWithTitle: @"Can't Upload Recording :("
+															 message: @"Damn, check the server logs"
+															delegate: nil
+										 cancelButtonTitle:@"OK"
+										 otherButtonTitles:nil];
+		[cantUploadAlert show];
+		[cantUploadAlert release];
+	}
+}
 
 @end

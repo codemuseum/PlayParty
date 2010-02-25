@@ -48,4 +48,9 @@
 - (void)handleRecordingStopped;
 - (void)playRecording;
 
+// Upload Actions
+- (BOOL)uploadAudio:(NSString *)audioFile withMessage:(NSString *)theMessage fuid:(NSString *)fuid apiKey:(NSString *)apiKey;
+- (void)uploadingDataWithURLRequest:(NSURLRequest *)urlRequest;
+- (void)didUploadWithResponse:(NSString *)responseString;
+
 @end
