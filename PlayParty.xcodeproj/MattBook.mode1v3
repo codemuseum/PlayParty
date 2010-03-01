@@ -293,7 +293,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>-15 79 1404 742 0 0 1440 878 </string>
+						<string>336 90 1404 742 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -323,7 +323,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>16702742113C8A890095B643</string>
+										<string>16702745113C8B460095B643</string>
 										<key>history</key>
 										<array>
 											<string>162AEE631134776B00804F6A</string>
@@ -354,7 +354,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1196, 607}}</string>
 								<key>RubberWindowFrame</key>
-								<string>-15 79 1404 742 0 0 1440 878 </string>
+								<string>336 90 1404 742 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -374,7 +374,7 @@
 								<key>Frame</key>
 								<string>{{0, 612}, {1196, 89}}</string>
 								<key>RubberWindowFrame</key>
-								<string>-15 79 1404 742 0 0 1440 878 </string>
+								<string>336 90 1404 742 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -545,7 +545,7 @@
 		<string>/Users/MattBook/Projects/PlayParty/PlayParty.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>-15 79 1404 742 0 0 1440 878 </string>
+	<string>336 90 1404 742 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
