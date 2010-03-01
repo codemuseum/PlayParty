@@ -332,7 +332,7 @@ static NSString* kUploadFiletype	= @"audio/x-caf";
 	[self resetRecordButton];
 	
 	_label.text = @"Uploading audio...";
-	[self uploadAudio:_recordingFile withMessage:nil fuid:[NSString stringWithFormat:@"%lld", _session.uid] apiKey:kApiKey];
+	[self uploadAudio:_recordingFile withMessage:nil fuid:[NSString stringWithFormat:@"%lld", _session.uid] apiKey:kApiKey facebookSessionKey:_session.sessionKey ];
 }
 
 - (void)audioRecorderDidFinishRecording:(AVAudioRecorder *) aRecorder successfully:(BOOL)flag {
@@ -387,7 +387,7 @@ static NSString* kUploadFiletype	= @"audio/x-caf";
 }
 
 
-- (BOOL)uploadAudio:(NSString *)audioFile withMessage:(NSString *)theMessage fuid:(NSString *)fuid apiKey:(NSString *)apiKey {
+- (BOOL)uploadAudio:(NSString *)audioFile withMessage:(NSString *)theMessage fuid:(NSString *)fuid apiKey:(NSString *)apiKey facebookSessionKey:(NSString *)facebookSessionKey {
 	NSString			*stringBoundary, *contentType, *message;
 	NSData				*audioData;
 	NSURL				*url;
@@ -426,6 +426,13 @@ static NSString* kUploadFiletype	= @"audio/x-caf";
 	[postBody appendData:[[NSString stringWithString:@"Content-Disposition: form-data; name=\"credentials[key]\"\r\n\r\n"] dataUsingEncoding:NSUTF8StringEncoding]];
 	[postBody appendData:[[NSString stringWithString:apiKey] dataUsingEncoding:NSUTF8StringEncoding]];  // api_key
 	
+	if (facebookSessionKey) {
+		NSLog(@"Facebook session key: %@", facebookSessionKey);
+		[postBody appendData:[[NSString stringWithFormat:@"\r\n--%@\r\n", stringBoundary] dataUsingEncoding:NSUTF8StringEncoding]];
+		[postBody appendData:[[NSString stringWithString:@"Content-Disposition: form-data; name=\"upload[facebook_session_key]\"\r\n\r\n"] dataUsingEncoding:NSUTF8StringEncoding]];
+		[postBody appendData:[[NSString stringWithString:facebookSessionKey] dataUsingEncoding:NSUTF8StringEncoding]];  // facebook_session_key
+	}
+
 	[postBody appendData:[[NSString stringWithFormat:@"\r\n--%@\r\n", stringBoundary] dataUsingEncoding:NSUTF8StringEncoding]];
 	[postBody appendData:[[NSString stringWithString:@"Content-Disposition: form-data; name=\"upload[message]\"\r\n\r\n"] dataUsingEncoding:NSUTF8StringEncoding]];
 	[postBody appendData:[[NSString stringWithString:message] dataUsingEncoding:NSUTF8StringEncoding]];  // message

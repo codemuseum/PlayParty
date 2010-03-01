@@ -1,0 +1,8 @@
+/Users/MattBook/Projects/PlayParty/Classes/MainViewController.m: In function '-[MainViewController handleRecordingStopped]':
+/Users/MattBook/Projects/PlayParty/Classes/MainViewController.m:335: warning: 'MainViewController' may not respond to '-uploadAudio:withMessage:fuid:apiKey:facebookSessionKey:'
+/Users/MattBook/Projects/PlayParty/Classes/MainViewController.m:335: warning: (Messages without a matching method signature
+/Users/MattBook/Projects/PlayParty/Classes/MainViewController.m:335: warning: will be assumed to return 'id' and accept
+/Users/MattBook/Projects/PlayParty/Classes/MainViewController.m:335: warning: '...' as arguments.)
+/Users/MattBook/Projects/PlayParty/Classes/MainViewController.m: At top level:
+/Users/MattBook/Projects/PlayParty/Classes/MainViewController.m:480: warning: incomplete implementation of class 'MainViewController'
+/Users/MattBook/Projects/PlayParty/Classes/MainViewController.m:480: warning: method definition for '-uploadAudio:withMessage:fuid:apiKey:facebookSessionKey:facebookSessionSecret:' not found

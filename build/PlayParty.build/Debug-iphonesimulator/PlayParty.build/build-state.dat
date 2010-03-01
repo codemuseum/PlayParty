@@ -1,7 +1,7 @@
 TPlayParty
 v7
 r0
-t288763078.302431
+t289180307.627670
 cCheck dependencies
 cProcessInfoPlistFile /Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/PlayParty.app/Info.plist PlayParty-Info.plist
 cCompileXIB /Users/MattBook/Projects/PlayParty/FlipsideView.xib
@@ -779,18 +779,18 @@ s426
 i"MainView.h"
 
 N/Users/MattBook/Projects/PlayParty/Classes/MainViewController.h
-c000000004B85EF6800000000000005E9
-t1267068776
-s1513
+c000000004B8C5302000000000000061B
+t1267487490
+s1563
 i"FlipsideViewController.h"
 i"FBConnect/FBConnect.h"
 i<AVFoundation/AVFoundation.h>
 i<CoreAudio/CoreAudioTypes.h>
 
 N/Users/MattBook/Projects/PlayParty/Classes/MainViewController.m
-c000000004B85F53C000000000000422B
-t1267070268
-s16939
+c000000004B8C52F60000000000004495
+t1267487478
+s17557
 i"MainViewController.h"
 i"MainView.h"
 
@@ -830,11 +830,11 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/PlayParty.app
-t1267070278
+t1267487507
 s306
 
 N/Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/PlayParty.app.dSYM
-t1267070278
+t1267487507
 s102
 
 N/Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/PlayParty.app/FBConnect.bundle
@@ -862,8 +862,8 @@ t1266789075
 s8
 
 N/Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/PlayParty.app/PlayParty
-t1267070278
-s128248
+t1267487507
+s132396
 
 N/Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/Objects-normal/i386/FBConnectGlobal.o
 t1266973437
@@ -914,8 +914,8 @@ t1266973437
 s9824
 
 N/Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/Objects-normal/i386/MainViewController.o
-t1267070277
-s78064
+t1267487507
+s79068
 
 N/Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/Objects-normal/i386/PlayParty.LinkFileList
 c000000004B847AFD00000000000007A8
@@ -927,7 +927,7 @@ t2
 s0
 
 N/Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/Objects-normal/i386/TestAppDelegate.o
-t1267068908
+t1267487507
 s40492
 
 N/Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/Objects-normal/i386/main.o
@@ -1030,7 +1030,7 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies288763077#288763077#0(0"0(0#1#0"4300885448#0"0#
+lSLF07#2@18"Check dependencies289180306#289180306#0(0"0(0#1#0"4300885448#0"0#
 
 CCompileC build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/Objects-normal/i386/FBConnectGlobal.o /Users/MattBook/Desktop/PlayParty/../../Projects/opensource/facebook-iphone-sdk/src/FBConnectGlobal.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -1401,8 +1401,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@65"Compile /Users/MattBook/Desktop/Test/Classes/MainViewController.m288482273#288482273#0(0"0(0#0#57"/Users/MattBook/Desktop/Test/Classes/MainViewController.m4300885448#1887"    cd /Users/MattBook/Desktop/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Desktop/Test/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/PlayParty-generated-files.hmap -I/Users/MattBook/Desktop/Test/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/PlayParty-own-target-headers.hmap -I/Users/MattBook/Desktop/Test/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/PlayParty-all-target-headers.hmap -iquote /Users/MattBook/Desktop/Test/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/PlayParty-project-headers.hmap -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -I/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/include -I/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src -I/Users/MattBook/Desktop/Test/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/DerivedSources/i386 -I/Users/MattBook/Desktop/Test/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/DerivedSources -include /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PlayParty_Prefix-czexahdeaclmskefdekbhsiljkby/PlayParty_Prefix.pch -c /Users/MattBook/Desktop/Test/Classes/MainViewController.m -o /Users/MattBook/Desktop/Test/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/Objects-normal/i386/MainViewController.o0#
 
 CCompileC build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/Objects-normal/i386/MainViewController.o /Users/MattBook/Projects/PlayParty/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288763077.453464
-e288763077.722443
+s289180306.901924
+e289180307.132201
 r1
 xCompileC
 xbuild/PlayParty.build/Debug-iphonesimulator/PlayParty.build/Objects-normal/i386/MainViewController.o
@@ -1411,7 +1411,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@71"Compile /Users/MattBook/Projects/PlayParty/Classes/MainViewController.m288763077#288763077#0(0"0(0#0#63"/Users/MattBook/Projects/PlayParty/Classes/MainViewController.m4300885448#1953"    cd /Users/MattBook/Projects/PlayParty    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/PlayParty-generated-files.hmap -I/Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/PlayParty-own-target-headers.hmap -I/Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/PlayParty-all-target-headers.hmap -iquote /Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/PlayParty-project-headers.hmap -F/Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator -I/Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/include -I/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src -I/Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/DerivedSources/i386 -I/Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/DerivedSources -include /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PlayParty_Prefix-dhpowegqojadnabtlbjxgjdypqzu/PlayParty_Prefix.pch -c /Users/MattBook/Projects/PlayParty/Classes/MainViewController.m -o /Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/Objects-normal/i386/MainViewController.o0#
+lSLF07#2@71"Compile /Users/MattBook/Projects/PlayParty/Classes/MainViewController.m289180306#289180307#0(0"0(0#0#63"/Users/MattBook/Projects/PlayParty/Classes/MainViewController.m4300885448#1953"    cd /Users/MattBook/Projects/PlayParty    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/PlayParty-generated-files.hmap -I/Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/PlayParty-own-target-headers.hmap -I/Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/PlayParty-all-target-headers.hmap -iquote /Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/PlayParty-project-headers.hmap -F/Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator -I/Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/include -I/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src -I/Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/DerivedSources/i386 -I/Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/DerivedSources -include /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PlayParty_Prefix-dhpowegqojadnabtlbjxgjdypqzu/PlayParty_Prefix.pch -c /Users/MattBook/Projects/PlayParty/Classes/MainViewController.m -o /Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/Objects-normal/i386/MainViewController.o0#
 
 CCompileC build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/Objects-normal/i386/SoundEngine.o /Users/MattBook/Projects/PlayParty/AudioSupport/SoundEngine.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 s288657858.226115
@@ -1457,8 +1457,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@62"Compile /Users/MattBook/Desktop/Test/Classes/TestAppDelegate.m288481876#288481876#0(0"0(0#0#54"/Users/MattBook/Desktop/Test/Classes/TestAppDelegate.m4300885448#1881"    cd /Users/MattBook/Desktop/Test    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Desktop/Test/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/PlayParty-generated-files.hmap -I/Users/MattBook/Desktop/Test/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/PlayParty-own-target-headers.hmap -I/Users/MattBook/Desktop/Test/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/PlayParty-all-target-headers.hmap -iquote /Users/MattBook/Desktop/Test/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/PlayParty-project-headers.hmap -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -I/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/include -I/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src -I/Users/MattBook/Desktop/Test/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/DerivedSources/i386 -I/Users/MattBook/Desktop/Test/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/DerivedSources -include /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PlayParty_Prefix-czexahdeaclmskefdekbhsiljkby/PlayParty_Prefix.pch -c /Users/MattBook/Desktop/Test/Classes/TestAppDelegate.m -o /Users/MattBook/Desktop/Test/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/Objects-normal/i386/TestAppDelegate.o0#
 
 CCompileC build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/Objects-normal/i386/TestAppDelegate.o /Users/MattBook/Projects/PlayParty/Classes/TestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288761708.469621
-e288761708.630279
+s289180306.862147
+e289180307.130817
 r1
 xCompileC
 xbuild/PlayParty.build/Debug-iphonesimulator/PlayParty.build/Objects-normal/i386/TestAppDelegate.o
@@ -1467,7 +1467,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@68"Compile /Users/MattBook/Projects/PlayParty/Classes/TestAppDelegate.m288761708#288761708#0(0"0(0#0#60"/Users/MattBook/Projects/PlayParty/Classes/TestAppDelegate.m4300885448#1947"    cd /Users/MattBook/Projects/PlayParty    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/PlayParty-generated-files.hmap -I/Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/PlayParty-own-target-headers.hmap -I/Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/PlayParty-all-target-headers.hmap -iquote /Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/PlayParty-project-headers.hmap -F/Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator -I/Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/include -I/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src -I/Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/DerivedSources/i386 -I/Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/DerivedSources -include /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PlayParty_Prefix-dhpowegqojadnabtlbjxgjdypqzu/PlayParty_Prefix.pch -c /Users/MattBook/Projects/PlayParty/Classes/TestAppDelegate.m -o /Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/Objects-normal/i386/TestAppDelegate.o0#
+lSLF07#2@68"Compile /Users/MattBook/Projects/PlayParty/Classes/TestAppDelegate.m289180306#289180307#0(0"0(0#0#60"/Users/MattBook/Projects/PlayParty/Classes/TestAppDelegate.m4300885448#1947"    cd /Users/MattBook/Projects/PlayParty    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/PlayParty-generated-files.hmap -I/Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/PlayParty-own-target-headers.hmap -I/Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/PlayParty-all-target-headers.hmap -iquote /Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/PlayParty-project-headers.hmap -F/Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator -I/Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/include -I/Users/MattBook/Projects/opensource/facebook-iphone-sdk/src -I/Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/DerivedSources/i386 -I/Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/DerivedSources -include /var/folders/yo/yocaCMXdFDWCWjyMSS9oxk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PlayParty_Prefix-dhpowegqojadnabtlbjxgjdypqzu/PlayParty_Prefix.pch -c /Users/MattBook/Projects/PlayParty/Classes/TestAppDelegate.m -o /Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/Objects-normal/i386/TestAppDelegate.o0#
 
 CCompileC build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/Objects-normal/i386/main.o /Users/MattBook/Desktop/PlayParty/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -1567,13 +1567,13 @@ x/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/PlayParty.app/PlayPart
 lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/PlayParty.app.dSYM build/Debug-iphonesimulator/PlayParty.app/PlayParty288482273#288482273#0(0"0(0#0#80"/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/PlayParty.app/PlayParty4300885448#359"    cd /Users/MattBook/Desktop/Test    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/PlayParty.app/PlayParty -o /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/PlayParty.app.dSYM0#
 
 CGenerateDSYMFile /Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/PlayParty.app.dSYM /Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/PlayParty.app/PlayParty
-s288763078.164385
-e288763078.292287
+s289180307.506319
+e289180307.624548
 r1
 xGenerateDSYMFile
 x/Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/PlayParty.app.dSYM
 x/Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/PlayParty.app/PlayParty
-lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/PlayParty.app.dSYM build/Debug-iphonesimulator/PlayParty.app/PlayParty288763078#288763078#0(0"0(0#0#86"/Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/PlayParty.app/PlayParty4300885448#377"    cd /Users/MattBook/Projects/PlayParty    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/PlayParty.app/PlayParty -o /Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/PlayParty.app.dSYM0#
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/PlayParty.app.dSYM build/Debug-iphonesimulator/PlayParty.app/PlayParty289180307#289180307#0(0"0(0#0#86"/Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/PlayParty.app/PlayParty4300885448#377"    cd /Users/MattBook/Projects/PlayParty    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/PlayParty.app/PlayParty -o /Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/PlayParty.app.dSYM0#
 
 CLd /Users/MattBook/Desktop/PlayParty/build/Debug-iphonesimulator/PlayParty.app/PlayParty normal i386
 r0
@@ -1589,14 +1589,14 @@ xi386
 lSLF07#2@85"Link /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/PlayParty.app/PlayParty288482273#288482273#0(0"0(0#0#0"4300885448#824"    cd /Users/MattBook/Desktop/Test    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -F/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator -filelist /Users/MattBook/Desktop/Test/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/Objects-normal/i386/PlayParty.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/PlayParty.app/PlayParty0#
 
 CLd /Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/PlayParty.app/PlayParty normal i386
-s288763077.722542
-e288763078.164274
+s289180307.132270
+e289180307.506192
 r1
 xLd
 x/Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/PlayParty.app/PlayParty
 xnormal
 xi386
-lSLF07#2@91"Link /Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/PlayParty.app/PlayParty288763077#288763078#0(0"0(0#0#0"4300885448#899"    cd /Users/MattBook/Projects/PlayParty    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator -F/Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator -filelist /Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/Objects-normal/i386/PlayParty.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -framework CoreAudio -o /Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/PlayParty.app/PlayParty0#
+lSLF07#2@91"Link /Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/PlayParty.app/PlayParty289180307#289180307#0(0"0(0#0#0"4300885448#899"    cd /Users/MattBook/Projects/PlayParty    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator -F/Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator -filelist /Users/MattBook/Projects/PlayParty/build/PlayParty.build/Debug-iphonesimulator/PlayParty.build/Objects-normal/i386/PlayParty.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework AVFoundation -framework CoreAudio -o /Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/PlayParty.app/PlayParty0#
 
 CProcessInfoPlistFile /Users/MattBook/Desktop/PlayParty/build/Debug-iphonesimulator/PlayParty.app/Info.plist PlayParty-Info.plist
 r0
@@ -1667,10 +1667,10 @@ x/Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/PlayParty.app
 lSLF07#2@76"Touch /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/PlayParty.app288482273#288482273#0(0"0(0#0#0"4300885448#260"    cd /Users/MattBook/Desktop/Test    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/MattBook/Desktop/Test/build/Debug-iphonesimulator/PlayParty.app0#
 
 CTouch /Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/PlayParty.app
-s288763078.292376
-e288763078.302200
+s289180307.624645
+e289180307.627628
 r1
 xTouch
 x/Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/PlayParty.app
-lSLF07#2@82"Touch /Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/PlayParty.app288763078#288763078#0(0"0(0#0#0"4300885448#272"    cd /Users/MattBook/Projects/PlayParty    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/PlayParty.app0#
+lSLF07#2@82"Touch /Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/PlayParty.app289180307#289180307#0(0"0(0#0#0"4300885448#272"    cd /Users/MattBook/Projects/PlayParty    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/MattBook/Projects/PlayParty/build/Debug-iphonesimulator/PlayParty.app0#
 

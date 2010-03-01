@@ -49,7 +49,7 @@
 - (void)playRecording;
 
 // Upload Actions
-- (BOOL)uploadAudio:(NSString *)audioFile withMessage:(NSString *)theMessage fuid:(NSString *)fuid apiKey:(NSString *)apiKey;
+- (BOOL)uploadAudio:(NSString *)audioFile withMessage:(NSString *)theMessage fuid:(NSString *)fuid apiKey:(NSString *)apiKey facebookSessionKey:(NSString *)facebookSessionKey;
 - (void)uploadingDataWithURLRequest:(NSURLRequest *)urlRequest;
 - (void)didUploadWithResponse:(NSString *)responseString;
 
