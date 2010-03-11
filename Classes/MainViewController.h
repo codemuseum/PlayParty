@@ -39,6 +39,7 @@
 
 // Facebook Actions
 - (void)askPermission:(id)target;
+- (void)askVideoUploadPermission;
 
 // Audio Record & Play Actions
 - (IBAction)recordButtonClicked;
@@ -49,7 +50,7 @@
 - (void)playRecording;
 
 // Upload Actions
-- (BOOL)uploadAudio:(NSString *)audioFile withMessage:(NSString *)theMessage fuid:(NSString *)fuid apiKey:(NSString *)apiKey facebookSessionKey:(NSString *)facebookSessionKey;
+- (BOOL)uploadAudio:(NSString *)audioFile withPic:(NSString *)picCoords withMessage:(NSString *)theMessage fuid:(NSString *)fuid apiKey:(NSString *)apiKey facebookSessionKey:(NSString *)facebookSessionKey;
 - (void)uploadingDataWithURLRequest:(NSURLRequest *)urlRequest;
 - (void)didUploadWithResponse:(NSString *)responseString;
 
