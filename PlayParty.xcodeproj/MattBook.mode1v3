@@ -323,7 +323,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>167F931D11516DDA000664C2</string>
+										<string>167F932D1151755E000664C2</string>
 										<key>history</key>
 										<array>
 											<string>162AEE631134776B00804F6A</string>
@@ -539,6 +539,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>161584081131DB600024F956</string>
 		<string>/Users/MattBook/Projects/PlayParty/PlayParty.xcodeproj</string>
 	</array>
@@ -742,13 +744,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>16E82AFE11509226007E2B25</string>
+				<string>167F932E1151755E000664C2</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>16E82AFF11509226007E2B25</string>
-				<string>16E82B0011509226007E2B25</string>
-				<string>16E82B0111509226007E2B25</string>
-				<string>16E82B0211509226007E2B25</string>
-				<string>16E82B0311509226007E2B25</string>
+				<string>167F932F1151755E000664C2</string>
+				<string>167F93301151755E000664C2</string>
+				<string>167F93311151755E000664C2</string>
+				<string>167F93321151755E000664C2</string>
+				<string>167F93331151755E000664C2</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -902,7 +904,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>16E82B0411509226007E2B25</string>
+				<string>167F93341151755E000664C2</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
