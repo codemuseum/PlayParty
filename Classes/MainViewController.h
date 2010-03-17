@@ -50,7 +50,7 @@
 - (void)playRecording;
 
 // Upload Actions
-- (BOOL)uploadAudio:(NSString *)audioFile withPic:(NSString *)picCoords withMessage:(NSString *)theMessage fuid:(NSString *)fuid apiKey:(NSString *)apiKey facebookSessionKey:(NSString *)facebookSessionKey;
+- (BOOL)uploadAudio:(NSString *)audioFile withPic:(NSString *)picCoords withGameType:(NSString *)theGameType withPrompt:(NSString *)thePrompt withHint:(NSString *)theHint gameWon:(BOOL)gameWon gameTimeMillisecs:(NSInteger)gameTime fuid:(NSString *)fuid apiKey:(NSString *)apiKey facebookSessionKey:(NSString *)facebookSessionKey;
 - (void)uploadingDataWithURLRequest:(NSURLRequest *)urlRequest;
 - (void)didUploadWithResponse:(NSString *)responseString;
 

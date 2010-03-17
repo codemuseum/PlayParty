@@ -20,7 +20,6 @@ static NSString* kGetSessionProxy = nil; // @"<YOUR SESSION CALLBACK)>";
 
 // Upload Statics
 static NSString* kServerUploadURL	= @"http://partyplay.heroku.com/uploads"; // @"http://localhost:3000/uploads";
-static NSString* kDefaultUploadMessage	= @"Watch our latest party.";
 static NSString* kTwitterSource	= @"playparty";
 static NSString* kUploadFilename	= @"playparty.caf";
 static NSString* kUploadFiletype	= @"audio/x-caf";
@@ -349,7 +348,17 @@ static NSString* kUploadVideoCoords = @"[[0,0,0],[1,1,30],[2,1,60],[3,2,90],[4,2
 	[self resetRecordButton];
 	
 	_label.text = @"Uploading audio...";
-	[self uploadAudio:_recordingFile withPic:kUploadVideoCoords withMessage:nil fuid:[NSString stringWithFormat:@"%lld", _session.uid] apiKey:kApiKey facebookSessionKey:_session.sessionKey ];
+	[self uploadAudio:_recordingFile 
+						withPic:kUploadVideoCoords 
+			 withGameType:@"PictoGrammica"
+				 withPrompt:@"X Men" 
+					 withHint:@"Movie"
+						gameWon:YES 
+	gameTimeMillisecs:59000 // 59 seconds
+							 fuid:[NSString stringWithFormat:@"%lld", _session.uid] 
+						 apiKey:kApiKey 
+ facebookSessionKey:_session.sessionKey 
+	];
 }
 
 - (void)audioRecorderDidFinishRecording:(AVAudioRecorder *) aRecorder successfully:(BOOL)flag {
@@ -404,8 +413,8 @@ static NSString* kUploadVideoCoords = @"[[0,0,0],[1,1,30],[2,1,60],[3,2,90],[4,2
 }
 
 
-- (BOOL)uploadAudio:(NSString *)audioFile withPic:(NSString *)picCoords withMessage:(NSString *)theMessage fuid:(NSString *)fuid apiKey:(NSString *)apiKey facebookSessionKey:(NSString *)facebookSessionKey {
-	NSString			*stringBoundary, *contentType, *message;
+- (BOOL)uploadAudio:(NSString *)audioFile withPic:(NSString *)picCoords withGameType:(NSString *)theGameType withPrompt:(NSString *)thePrompt withHint:(NSString *)theHint gameWon:(BOOL)gameWon gameTimeMillisecs:(NSInteger)gameTime fuid:(NSString *)fuid apiKey:(NSString *)apiKey facebookSessionKey:(NSString *)facebookSessionKey {
+	NSString			*stringBoundary, *contentType, *gameWonStr;
 	NSData				*audioData;
 	NSURL				*url;
 	NSMutableURLRequest *urlRequest;
@@ -417,7 +426,6 @@ static NSString* kUploadVideoCoords = @"[[0,0,0],[1,1,30],[2,1,60],[3,2,90],[4,2
 	[urlRequest setHTTPMethod:@"POST"];	
 	
 	// Set the params
-	message		  = ([theMessage length] > 1) ? theMessage : kDefaultUploadMessage;
 	audioData	  = [NSData dataWithContentsOfURL:[NSURL fileURLWithPath: audioFile]];
 	
 	// Setup POST body
@@ -451,8 +459,31 @@ static NSString* kUploadVideoCoords = @"[[0,0,0],[1,1,30],[2,1,60],[3,2,90],[4,2
 	}
 
 	[postBody appendData:[[NSString stringWithFormat:@"\r\n--%@\r\n", stringBoundary] dataUsingEncoding:NSUTF8StringEncoding]];
-	[postBody appendData:[[NSString stringWithString:@"Content-Disposition: form-data; name=\"upload[message]\"\r\n\r\n"] dataUsingEncoding:NSUTF8StringEncoding]];
-	[postBody appendData:[[NSString stringWithString:message] dataUsingEncoding:NSUTF8StringEncoding]];  // message
+	[postBody appendData:[[NSString stringWithString:@"Content-Disposition: form-data; name=\"upload[game_type]\"\r\n\r\n"] dataUsingEncoding:NSUTF8StringEncoding]];
+	[postBody appendData:[[NSString stringWithString:theGameType] dataUsingEncoding:NSUTF8StringEncoding]];  // game_type
+	
+	[postBody appendData:[[NSString stringWithFormat:@"\r\n--%@\r\n", stringBoundary] dataUsingEncoding:NSUTF8StringEncoding]];
+	[postBody appendData:[[NSString stringWithString:@"Content-Disposition: form-data; name=\"upload[prompt]\"\r\n\r\n"] dataUsingEncoding:NSUTF8StringEncoding]];
+	[postBody appendData:[[NSString stringWithString:thePrompt] dataUsingEncoding:NSUTF8StringEncoding]];  // prompt
+	
+	[postBody appendData:[[NSString stringWithFormat:@"\r\n--%@\r\n", stringBoundary] dataUsingEncoding:NSUTF8StringEncoding]];
+	[postBody appendData:[[NSString stringWithString:@"Content-Disposition: form-data; name=\"upload[hint]\"\r\n\r\n"] dataUsingEncoding:NSUTF8StringEncoding]];
+	[postBody appendData:[[NSString stringWithString:theHint] dataUsingEncoding:NSUTF8StringEncoding]];  // hint
+	
+	if (gameWon) {
+		gameWonStr = @"1";
+	}
+	else {
+		gameWonStr = @"0";
+	}
+	[postBody appendData:[[NSString stringWithFormat:@"\r\n--%@\r\n", stringBoundary] dataUsingEncoding:NSUTF8StringEncoding]];
+	[postBody appendData:[[NSString stringWithString:@"Content-Disposition: form-data; name=\"upload[game_won]\"\r\n\r\n"] dataUsingEncoding:NSUTF8StringEncoding]];
+	[postBody appendData:[[NSString stringWithString:gameWonStr] dataUsingEncoding:NSUTF8StringEncoding]];  // game_won
+	
+	[postBody appendData:[[NSString stringWithFormat:@"\r\n--%@\r\n", stringBoundary] dataUsingEncoding:NSUTF8StringEncoding]];
+	[postBody appendData:[[NSString stringWithString:@"Content-Disposition: form-data; name=\"upload[game_time]\"\r\n\r\n"] dataUsingEncoding:NSUTF8StringEncoding]];
+	[postBody appendData:[[NSString stringWithFormat:@"%d", gameTime] dataUsingEncoding:NSUTF8StringEncoding]];  // game_time
+
 	
 	[postBody appendData:[[NSString stringWithFormat:@"\r\n--%@\r\n", stringBoundary] dataUsingEncoding:NSUTF8StringEncoding]];
 	[postBody appendData:[[NSString stringWithString:@"Content-Disposition: form-data; name=\"upload[picture_coordinates]\"\r\n\r\n"] dataUsingEncoding:NSUTF8StringEncoding]];
